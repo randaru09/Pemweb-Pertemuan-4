@@ -1,0 +1,230 @@
+:root {
+    --nav: #D9D9D9;
+    --border: black;
+    --layer1: #EDDFB3;
+    --layer2: #D8CCA3;
+    --layer3: #B09B71;
+    --layer4: #87805E;
+    --font: black;
+}
+
+.dark-theme {
+    --nav: #007acc;
+    --border:white;
+    --layer1: #3e3e42;
+    --layer2: #2d2d30;
+    --layer3: #252526;
+    --layer4: #1e1e1e;
+    --font: white;
+}
+
+body{
+    margin: 0px;
+    color: var(--font);
+}
+nav{
+    background-color: var(--nav);
+    height: 81px;
+    display: flex;
+    align-items: center;
+}
+nav button{
+    margin-left: 30%;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 40%;
+}
+.list a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.home{
+    background-color: var(--layer1);
+    height: 358px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.profil{
+    display: flex;
+    margin-left: 30px;
+}
+.profil img{
+    border-radius: 10px;
+}
+.profil-txt{
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.profil h2{
+    margin-top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+}
+.profil p{
+    margin-top: -10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+}
+.tentangsaya{
+    background-color: var(--layer2);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tentangsaya-txt{
+    margin-left: 35px;
+    width: 50%;
+}
+.tentangsaya h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+}
+.tentangsaya p{
+    margin-top: -20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 388px;
+}
+.tentangsaya-video{
+    margin-top: 35px;
+}
+.tentangsaya-video p{
+    margin-top: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 388px;
+}
+.pengalaman{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--layer3);
+    height: 459px;
+    justify-content: center;
+    align-items: center;
+}
+.pengalaman h2{
+    margin-top: -40px ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+}
+table{
+    margin-top: 35px;
+    border-collapse: collapse ;
+    border-color: var();
+    
+}
+th{
+    background-color: var(--nav);
+}
+td{
+    text-align: center;
+    background-color:var(--layer2);
+}
+.contact{
+    background-color: var(--layer4);
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+}
+
+.contact h2{
+    margin: auto;
+}
+
+.konten-con{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input{
+    margin-left: 35px;
+    background-color: var(--nav);
+    padding: 20px;
+    width: 500px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+.contact h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+}
+.contact h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 44px;
+}
+.contact p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 388px;
+}
+.contact label{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    width: 388px;
+}
+.contact input{
+    width: 300px;
+    height: 20px;
+    border-radius: 7px;
+}
+.contact textarea{
+    width: 300px;
+    border-radius: 7px;
+}
+.konten-con{
+    margin-top: 35px;
+}
+.contact button{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+}
+.sosmed{
+    margin-left: 35px;
+    background-color: var(--nav);
+    padding: 20px;
+    width: 500px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}

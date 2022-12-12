@@ -1,0 +1,101 @@
+@media screen and (max-width: 769px){
+    iframe{
+        margin-left: 35px;
+    }
+    .profil img{
+        margin-left: 35px;
+    }
+    .tentangsaya-txt h2{
+        margin-left: 35px;
+    }
+    .tentangsaya-txt p{
+        margin-left: 35px;
+    }
+    .tentangsaya-video {
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    .tentangsaya-video p{
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    .list{
+        justify-content: space-between;
+        margin-left: 25%;
+
+    }
+    nav button{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 587px){
+    iframe{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 415px){
+    nav{
+        flex-direction: column;
+    }
+    nav button{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .list{
+        margin-left: 0px;
+    }
+    .home{
+        height: max-content;
+        margin-left: 0px;
+    }
+    .profil{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .profil img{
+        width: 300px;
+        margin: 0px;
+        margin-top: 35px;
+    }
+    .profil-txt{
+        margin-top: 35px;
+        margin-left:35px;
+    }
+    .tentangsaya-txt h2{
+        margin-left: 0px;
+    }
+    .tentangsaya-txt p{
+        width: 300px;
+        margin-left: 0px;
+    }
+    .tentangsaya-video{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .tentangsaya-video p{
+        width: 200px;
+    }
+    iframe{
+        width: 300px;
+    }
+    .table{
+        width: 90%;
+    }
+    .input{
+        width: 300px;
+        margin-left: 0px;
+    }
+    .sosmed{
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    .foto{
+        display: flex;
+        justify-content: center;
+    }
+    .sosmed p{
+        width: 300px;
+    }
+}
